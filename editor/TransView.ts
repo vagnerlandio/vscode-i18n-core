@@ -52,7 +52,7 @@ export abstract class TransView {
 
     this.panel = vscode.window.createWebviewPanel(
       'transView',
-      '翻译中心',
+      'Translation Center',
       vscode.ViewColumn.Beside,
       { enableScripts: true }
     )

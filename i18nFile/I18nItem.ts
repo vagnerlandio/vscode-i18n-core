@@ -227,9 +227,9 @@ export class I18nItem {
       return true
     }
 
-    const overrideText = '覆盖'
+    const overrideText = 'overwrite?'
     const isOverride = await vscode.window.showInformationMessage(
-      `已有 ${overrideKey} 👉 ${text}, 覆盖吗？`,
+      `Already ${overrideKey} 👉 ${text}, override?`,
       { modal: true },
       overrideText
     )

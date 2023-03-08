@@ -16,7 +16,7 @@ const onExtract = async ({
   filepath,
   text,
   keyReplace,
-  promptText = `请输入要保存的路径，例如:home.document.title`,
+  promptText = `Please enter the path to save, for example: home.document.title`,
   keyTransform = key => key,
   defaultKeyTransform = key => key
 }: {

@@ -54,7 +54,7 @@ export const delI18nCommand = () => {
       lngTransData.text = ''
       await i18n.writeI18n(transData)
 
-      const recoverText = '恢复'
+      const recoverText = 'recover'
       const result = await vscode.window.showInformationMessage(
         `${Config.extensionName}: 🚮 ${text}`,
         recoverText
@@ -83,7 +83,7 @@ export const removeI18nCommand = () => {
 
       i18n.removeI18n(key)
 
-      const recoverText = '恢复'
+      const recoverText = 'recover'
       const result = await vscode.window.showInformationMessage(
         `${Config.extensionName}: 🚮 ${key}`,
         recoverText
